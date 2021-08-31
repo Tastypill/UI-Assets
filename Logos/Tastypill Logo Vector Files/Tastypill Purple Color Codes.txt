@@ -1,0 +1,16 @@
+
+Tastypill Purple Color Codes
+
+HEX
+#635775
+
+RGB
+R: 99
+G: 87
+B: 117
+
+CMYK
+C: 66%
+M: 68%
+Y: 34%
+K: 14%
