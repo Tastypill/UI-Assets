@@ -11,7 +11,6 @@ This is a collection of standard UI elements and tools, meant to provide a solid
   - **TP_Noir**: These are inverted black and white assets, off-black shapes with white outlines
 - Asset Type: Inside the UI set folder assets are mostly sorted into folders by type
   - **Button** - Base shapes for buttons
-    - 
     - **Decoration** - Decorative elements like shines and gradients that can be put on top of buttons to dress them up
   - **Symbol** - A collection of common symbols
   - **Tool** - Items meant to aid in setting up or designing UIs
@@ -22,19 +21,19 @@ This is a collection of standard UI elements and tools, meant to provide a solid
 
 - \[Item\]: Idetifies the item type
 - RX: Indicates the roundness of the corners. Measured in points at the 64px scale. At present the options are:
-  - R0: Square corners (nearly, 1pt at 128px scale)
-  - RS: Small radius corners (4pt at 128px scale)
-  - RL: Large radius corners (10pt at 128px scale)
-  - R00: Rounded (a circle, or a pill shape)
+  - **R0**: Square corners (nearly, 1pt at 128px scale)
+  - **RS**: Small radius corners (4pt at 128px scale)
+  - **RL**: Large radius corners (10pt at 128px scale)
+  - **R00**: Rounded (a circle, or a pill shape)
 - Depth: If present indicates that there are subtle highlights and shadows creating a 3D appearance
 - Deep: If present indicates that the border is thicker on the bottom, creating an appearance of thickness
 - ##px: Indicates scale
-  - 128px is the base scale, based on a 128px button size
+  - Most imnportant, items with the same scale number are scaled to each other
+  - **128px** is the base scale, based on a 128px button size
     - On a modern iPhone, 128 pixels equates to roughly 42 points, which is almost the recommended smallest size for a touchable UI element (44pt), and a bit larger than the recommended visual minimum (32pt). It is also a Power of 2, which is why it was chosen
     - Button blocks at this scale are 64px squares (or circles)
     - Radius numbers are measured as Points at this scale, at larger scales the radii will be multiplied
-  - 256px to 1024px are sized starting from the 64px scale and doubling each time
-  - Items with the same scale number are scaled to each other
+  - **256px to 1024px** are sized starting from the 64px scale and doubling each time
 
 ## Notes
 
