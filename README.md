@@ -17,10 +17,10 @@ This is a collection of standard UI elements and tools, meant to provide a solid
 
 ## Naming Conventions
 
-\[Item\]RX-Depth-Deep_64px
+\[Item\]RX-Depth-Deep_128px
 
 - \[Item\]: Idetifies the item type
-- RX: Indicates the roundness of the corners. Measured in points at the 64px scale. At present the options are:
+- RX: Indicates the roundness of the corners. Measured in points at the 128px scale. At present the options are:
   - **R0**: Square corners (nearly, 1pt at 128px scale)
   - **RS**: Small radius corners (4pt at 128px scale)
   - **RL**: Large radius corners (10pt at 128px scale)
@@ -31,7 +31,7 @@ This is a collection of standard UI elements and tools, meant to provide a solid
   - Most imnportant, items with the same scale number are scaled to each other
   - **128px** is the base scale, based on a 128px button size
     - On a modern iPhone, 128 pixels equates to roughly 42 points, which is almost the recommended smallest size for a touchable UI element (44pt), and a bit larger than the recommended visual minimum (32pt). It is also a Power of 2, which is why it was chosen
-    - Button blocks at this scale are 64px squares (or circles)
+    - Button blocks at this scale are 128px squares (or circles)
     - Radius numbers are measured as Points at this scale, at larger scales the radii will be multiplied
   - **256px to 1024px** are sized starting from the 64px scale and doubling each time
 
